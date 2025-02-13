@@ -4,20 +4,10 @@ Prueba para correr varias veces
 
 [JUNCTIONS]
 ;ID              	Elev        	Demand      	Pattern         
-10  100  11.0  1  ;
-20  110  12.0  1  ;
-30  110  11.2  1  ;
-40  115  13.5  1  ;
-[TITLE]
-Montecarlo
-Prueba para correr varias veces
-
-[JUNCTIONS]
-;ID              	Elev        	Demand      	Pattern         
- B               	1210        	16.9        	1               	;
- C               	1190        	33.1        	1               	;
- D               	1195        	33.1        	1               	;
- E               	1205        	25.3        	1               	;
+B  1210  16.9  1  ;
+C  1190  29.79  1  ;
+D  1195  33.1  1  ;
+E  1205  20.24  1  ;
 
 [RESERVOIRS]
 ;ID              	Head        	Pattern         

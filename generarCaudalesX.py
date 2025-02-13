@@ -15,13 +15,29 @@ n = 15
 f_n= float(n)
 qmc=0.0
 QT=0.0
+nn = []
+e = []
+qm = []
+f = []
 random.seed()
 dist_frec = []
 nudos=[]
 c_prob = [(10,0.8),(15, 0.9),(50, 1),(15,1.1),(10,1.2)]
-qm = [1.0, 2.0, 3.0, 4.0, 5.0] #caudales
 
-def crear_df(c_prob):  # crear la distribución de frecuencias: 100 valores de los cuales escoger
+##### cargar nudos originales con caudales promedio
+with open(nudos_orig.json,'r') as red:
+    j_red = json.load(red)
+    
+    for i in (j_red['junctions']): # leer los nudos de carga del JSON
+       nn.append(i.get('id'))
+       e.append(i.get('elevation'))
+       qm.append(i.get('demand'))
+       f.append(i.get('pattern'))
+
+
+#qm = [1.0, 2.0, 3.0, 4.0, 5.0] #caudales
+
+def crear_df(c_prob):  # crear la distribución de frecuancias: 100 valores de los cuales escoger
 # Se crean 100 valores a partir de los 5 caudales posibles en cantidades de acuerdo a su probabilidad
   df=[]
   for i in range(len(c_prob)):      # esto se realiza las veces requeridas en el periodo extendido
