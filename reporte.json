@@ -2,22 +2,22 @@
     {
         "hora": 0,
         "nudo": "B",
-        "presion": "31.75"
+        "presion": "32.32"
     },
     {
         "hora": 0,
         "nudo": "C",
-        "presion": "48.29"
+        "presion": "49.29"
     },
     {
         "hora": 0,
         "nudo": "D",
-        "presion": "44.52"
+        "presion": "45.20"
     },
     {
         "hora": 0,
         "nudo": "E",
-        "presion": "32.49"
+        "presion": "33.19"
     },
     {
         "hora": 0,
@@ -27,601 +27,601 @@
     {
         "hora": 1,
         "nudo": "B",
-        "presion": "30.76"
+        "presion": "31.39"
     },
     {
         "hora": 1,
         "nudo": "C",
-        "presion": "46.93"
+        "presion": "48.04"
     },
     {
         "hora": 1,
         "nudo": "D",
-        "presion": "43.29"
+        "presion": "44.04"
     },
     {
         "hora": 1,
         "nudo": "E",
-        "presion": "31.04"
+        "presion": "31.82"
     },
     {
         "hora": 1,
         "nudo": "A",
-        "presion": "9.89"
+        "presion": "9.90"
     },
     {
         "hora": 2,
         "nudo": "B",
-        "presion": "29.72"
+        "presion": "30.42"
     },
     {
         "hora": 2,
         "nudo": "C",
-        "presion": "45.50"
+        "presion": "46.73"
     },
     {
         "hora": 2,
         "nudo": "D",
-        "presion": "42.00"
+        "presion": "42.84"
     },
     {
         "hora": 2,
         "nudo": "E",
-        "presion": "29.52"
+        "presion": "30.38"
     },
     {
         "hora": 2,
         "nudo": "A",
-        "presion": "9.78"
+        "presion": "9.79"
     },
     {
         "hora": 3,
         "nudo": "B",
-        "presion": "28.64"
+        "presion": "29.41"
     },
     {
         "hora": 3,
         "nudo": "C",
-        "presion": "44.01"
+        "presion": "45.36"
     },
     {
         "hora": 3,
         "nudo": "D",
-        "presion": "40.65"
+        "presion": "41.57"
     },
     {
         "hora": 3,
         "nudo": "E",
-        "presion": "27.94"
+        "presion": "28.89"
     },
     {
         "hora": 3,
         "nudo": "A",
-        "presion": "9.67"
+        "presion": "9.68"
     },
     {
         "hora": 4,
         "nudo": "B",
-        "presion": "27.16"
+        "presion": "28.03"
     },
     {
         "hora": 4,
         "nudo": "C",
-        "presion": "41.96"
+        "presion": "43.48"
     },
     {
         "hora": 4,
         "nudo": "D",
-        "presion": "38.81"
+        "presion": "39.84"
     },
     {
         "hora": 4,
         "nudo": "E",
-        "presion": "25.76"
+        "presion": "26.83"
     },
     {
         "hora": 4,
         "nudo": "A",
-        "presion": "9.54"
+        "presion": "9.56"
     },
     {
         "hora": 5,
         "nudo": "B",
-        "presion": "24.11"
+        "presion": "25.18"
     },
     {
         "hora": 5,
         "nudo": "C",
-        "presion": "37.68"
+        "presion": "39.56"
     },
     {
         "hora": 5,
         "nudo": "D",
-        "presion": "34.97"
+        "presion": "36.25"
     },
     {
         "hora": 5,
         "nudo": "E",
-        "presion": "21.20"
+        "presion": "22.52"
     },
     {
         "hora": 5,
         "nudo": "A",
-        "presion": "9.41"
+        "presion": "9.43"
     },
     {
         "hora": 6,
         "nudo": "B",
-        "presion": "9.49"
+        "presion": "11.56"
     },
     {
         "hora": 6,
         "nudo": "C",
-        "presion": "16.99"
+        "presion": "20.64"
     },
     {
         "hora": 6,
         "nudo": "D",
-        "presion": "16.43"
+        "presion": "18.91"
     },
     {
         "hora": 6,
         "nudo": "E",
-        "presion": "-0.90"
+        "presion": "1.65"
     },
     {
         "hora": 6,
         "nudo": "A",
-        "presion": "9.26"
+        "presion": "9.29"
     },
     {
         "hora": 7,
         "nudo": "B",
-        "presion": "-9.48"
+        "presion": "-6.11"
     },
     {
         "hora": 7,
         "nudo": "C",
-        "presion": "-9.85"
+        "presion": "-3.92"
     },
     {
         "hora": 7,
         "nudo": "D",
-        "presion": "-7.61"
+        "presion": "-3.59"
     },
     {
         "hora": 7,
         "nudo": "E",
-        "presion": "-29.57"
+        "presion": "-25.41"
     },
     {
         "hora": 7,
         "nudo": "A",
-        "presion": "9.05"
+        "presion": "9.09"
     },
     {
         "hora": 8,
         "nudo": "B",
-        "presion": "-19.98"
+        "presion": "-15.89"
     },
     {
         "hora": 8,
         "nudo": "C",
-        "presion": "-24.63"
+        "presion": "-17.45"
     },
     {
         "hora": 8,
         "nudo": "D",
-        "presion": "-20.87"
+        "presion": "-16.00"
     },
     {
         "hora": 8,
         "nudo": "E",
-        "presion": "-45.35"
+        "presion": "-40.31"
     },
     {
         "hora": 8,
         "nudo": "A",
-        "presion": "8.78"
+        "presion": "8.83"
     },
     {
         "hora": 9,
         "nudo": "B",
-        "presion": "-31.39"
+        "presion": "-26.53"
     },
     {
         "hora": 9,
         "nudo": "C",
-        "presion": "-40.71"
+        "presion": "-32.17"
     },
     {
         "hora": 9,
         "nudo": "D",
-        "presion": "-35.29"
+        "presion": "-29.50"
     },
     {
         "hora": 9,
         "nudo": "E",
-        "presion": "-62.51"
+        "presion": "-56.52"
     },
     {
         "hora": 9,
         "nudo": "A",
-        "presion": "8.48"
+        "presion": "8.53"
     },
     {
         "hora": 10,
         "nudo": "B",
-        "presion": "-17.11"
+        "presion": "-13.24"
     },
     {
         "hora": 10,
         "nudo": "C",
-        "presion": "-20.29"
+        "presion": "-13.52"
     },
     {
         "hora": 10,
         "nudo": "D",
-        "presion": "-17.05"
+        "presion": "-12.45"
     },
     {
         "hora": 10,
         "nudo": "E",
-        "presion": "-40.67"
+        "presion": "-35.91"
     },
     {
         "hora": 10,
         "nudo": "A",
-        "presion": "8.14"
+        "presion": "8.21"
     },
     {
         "hora": 11,
         "nudo": "B",
-        "presion": "-4.99"
+        "presion": "-1.96"
     },
     {
         "hora": 11,
         "nudo": "C",
-        "presion": "-2.97"
+        "presion": "2.32"
     },
     {
         "hora": 11,
         "nudo": "D",
+        "presion": "2.02"
+    },
+    {
+        "hora": 11,
+        "nudo": "E",
+        "presion": "-18.41"
+    },
+    {
+        "hora": 11,
+        "nudo": "A",
+        "presion": "7.93"
+    },
+    {
+        "hora": 12,
+        "nudo": "B",
+        "presion": "2.25"
+    },
+    {
+        "hora": 12,
+        "nudo": "C",
+        "presion": "8.29"
+    },
+    {
+        "hora": 12,
+        "nudo": "D",
+        "presion": "7.47"
+    },
+    {
+        "hora": 12,
+        "nudo": "E",
+        "presion": "-11.80"
+    },
+    {
+        "hora": 12,
+        "nudo": "A",
+        "presion": "7.68"
+    },
+    {
+        "hora": 13,
+        "nudo": "B",
+        "presion": "5.72"
+    },
+    {
+        "hora": 13,
+        "nudo": "C",
+        "presion": "13.22"
+    },
+    {
+        "hora": 13,
+        "nudo": "D",
+        "presion": "11.96"
+    },
+    {
+        "hora": 13,
+        "nudo": "E",
+        "presion": "-6.34"
+    },
+    {
+        "hora": 13,
+        "nudo": "A",
+        "presion": "7.45"
+    },
+    {
+        "hora": 14,
+        "nudo": "B",
+        "presion": "7.03"
+    },
+    {
+        "hora": 14,
+        "nudo": "C",
+        "presion": "15.13"
+    },
+    {
+        "hora": 14,
+        "nudo": "D",
+        "presion": "13.69"
+    },
+    {
+        "hora": 14,
+        "nudo": "E",
+        "presion": "-4.21"
+    },
+    {
+        "hora": 14,
+        "nudo": "A",
+        "presion": "7.23"
+    },
+    {
+        "hora": 15,
+        "nudo": "B",
+        "presion": "7.82"
+    },
+    {
+        "hora": 15,
+        "nudo": "C",
+        "presion": "16.31"
+    },
+    {
+        "hora": 15,
+        "nudo": "D",
+        "presion": "14.76"
+    },
+    {
+        "hora": 15,
+        "nudo": "E",
+        "presion": "-2.88"
+    },
+    {
+        "hora": 15,
+        "nudo": "A",
+        "presion": "7.02"
+    },
+    {
+        "hora": 16,
+        "nudo": "B",
+        "presion": "8.60"
+    },
+    {
+        "hora": 16,
+        "nudo": "C",
+        "presion": "17.48"
+    },
+    {
+        "hora": 16,
+        "nudo": "D",
+        "presion": "15.80"
+    },
+    {
+        "hora": 16,
+        "nudo": "E",
         "presion": "-1.58"
     },
     {
-        "hora": 11,
-        "nudo": "E",
-        "presion": "-22.13"
-    },
-    {
-        "hora": 11,
-        "nudo": "A",
-        "presion": "7.85"
-    },
-    {
-        "hora": 12,
-        "nudo": "B",
-        "presion": "-0.46"
-    },
-    {
-        "hora": 12,
-        "nudo": "C",
-        "presion": "3.58"
-    },
-    {
-        "hora": 12,
-        "nudo": "D",
-        "presion": "4.25"
-    },
-    {
-        "hora": 12,
-        "nudo": "E",
-        "presion": "-15.12"
-    },
-    {
-        "hora": 12,
-        "nudo": "A",
-        "presion": "7.59"
-    },
-    {
-        "hora": 13,
-        "nudo": "B",
-        "presion": "3.28"
-    },
-    {
-        "hora": 13,
-        "nudo": "C",
-        "presion": "8.98"
-    },
-    {
-        "hora": 13,
-        "nudo": "D",
-        "presion": "9.06"
-    },
-    {
-        "hora": 13,
-        "nudo": "E",
-        "presion": "-9.33"
-    },
-    {
-        "hora": 13,
-        "nudo": "A",
-        "presion": "7.35"
-    },
-    {
-        "hora": 14,
-        "nudo": "B",
-        "presion": "4.69"
-    },
-    {
-        "hora": 14,
-        "nudo": "C",
-        "presion": "11.09"
-    },
-    {
-        "hora": 14,
-        "nudo": "D",
-        "presion": "10.92"
-    },
-    {
-        "hora": 14,
-        "nudo": "E",
-        "presion": "-7.07"
-    },
-    {
-        "hora": 14,
-        "nudo": "A",
-        "presion": "7.12"
-    },
-    {
-        "hora": 15,
-        "nudo": "B",
-        "presion": "5.55"
-    },
-    {
-        "hora": 15,
-        "nudo": "C",
-        "presion": "12.39"
-    },
-    {
-        "hora": 15,
-        "nudo": "D",
-        "presion": "12.07"
-    },
-    {
-        "hora": 15,
-        "nudo": "E",
-        "presion": "-5.66"
-    },
-    {
-        "hora": 15,
-        "nudo": "A",
-        "presion": "6.90"
-    },
-    {
-        "hora": 16,
-        "nudo": "B",
-        "presion": "6.39"
-    },
-    {
-        "hora": 16,
-        "nudo": "C",
-        "presion": "13.67"
-    },
-    {
-        "hora": 16,
-        "nudo": "D",
-        "presion": "13.19"
-    },
-    {
-        "hora": 16,
-        "nudo": "E",
-        "presion": "-4.27"
-    },
-    {
         "hora": 16,
         "nudo": "A",
-        "presion": "6.69"
+        "presion": "6.81"
     },
     {
         "hora": 17,
         "nudo": "B",
-        "presion": "7.73"
+        "presion": "9.84"
     },
     {
         "hora": 17,
         "nudo": "C",
-        "presion": "15.67"
+        "presion": "19.29"
     },
     {
         "hora": 17,
         "nudo": "D",
-        "presion": "14.96"
+        "presion": "17.45"
     },
     {
         "hora": 17,
         "nudo": "E",
-        "presion": "-2.13"
+        "presion": "0.45"
     },
     {
         "hora": 17,
         "nudo": "A",
-        "presion": "6.47"
+        "presion": "6.61"
     },
     {
         "hora": 18,
         "nudo": "B",
-        "presion": "9.04"
+        "presion": "11.05"
     },
     {
         "hora": 18,
         "nudo": "C",
-        "presion": "17.61"
+        "presion": "21.06"
     },
     {
         "hora": 18,
         "nudo": "D",
-        "presion": "16.68"
+        "presion": "19.05"
     },
     {
         "hora": 18,
         "nudo": "E",
-        "presion": "-0.03"
+        "presion": "2.42"
     },
     {
         "hora": 18,
         "nudo": "A",
-        "presion": "6.27"
+        "presion": "6.41"
     },
     {
         "hora": 19,
         "nudo": "B",
-        "presion": "9.83"
+        "presion": "11.78"
     },
     {
         "hora": 19,
         "nudo": "C",
-        "presion": "18.82"
+        "presion": "22.15"
     },
     {
         "hora": 19,
         "nudo": "D",
-        "presion": "17.73"
+        "presion": "20.03"
     },
     {
         "hora": 19,
         "nudo": "E",
-        "presion": "1.27"
+        "presion": "3.64"
     },
     {
         "hora": 19,
         "nudo": "A",
-        "presion": "6.07"
+        "presion": "6.22"
     },
     {
         "hora": 20,
         "nudo": "B",
-        "presion": "12.03"
+        "presion": "13.83"
     },
     {
         "hora": 20,
         "nudo": "C",
-        "presion": "22.03"
+        "presion": "25.08"
     },
     {
         "hora": 20,
         "nudo": "D",
-        "presion": "20.59"
+        "presion": "22.70"
     },
     {
         "hora": 20,
         "nudo": "E",
-        "presion": "4.71"
+        "presion": "6.89"
     },
     {
         "hora": 20,
         "nudo": "A",
-        "presion": "5.87"
+        "presion": "6.03"
     },
     {
         "hora": 21,
         "nudo": "B",
-        "presion": "14.14"
+        "presion": "15.79"
     },
     {
         "hora": 21,
         "nudo": "C",
-        "presion": "25.10"
+        "presion": "27.88"
     },
     {
         "hora": 21,
         "nudo": "D",
-        "presion": "23.32"
+        "presion": "25.25"
     },
     {
         "hora": 21,
         "nudo": "E",
-        "presion": "8.01"
+        "presion": "10.00"
     },
     {
         "hora": 21,
+        "nudo": "A",
+        "presion": "5.85"
+    },
+    {
+        "hora": 22,
+        "nudo": "B",
+        "presion": "20.70"
+    },
+    {
+        "hora": 22,
+        "nudo": "C",
+        "presion": "34.80"
+    },
+    {
+        "hora": 22,
+        "nudo": "D",
+        "presion": "31.57"
+    },
+    {
+        "hora": 22,
+        "nudo": "E",
+        "presion": "17.65"
+    },
+    {
+        "hora": 22,
         "nudo": "A",
         "presion": "5.68"
     },
     {
-        "hora": 22,
-        "nudo": "B",
-        "presion": "19.43"
-    },
-    {
-        "hora": 22,
-        "nudo": "C",
-        "presion": "32.68"
-    },
-    {
-        "hora": 22,
-        "nudo": "D",
-        "presion": "30.08"
-    },
-    {
-        "hora": 22,
-        "nudo": "E",
-        "presion": "16.12"
-    },
-    {
-        "hora": 22,
-        "nudo": "A",
-        "presion": "5.51"
-    },
-    {
         "hora": 23,
         "nudo": "B",
-        "presion": "24.00"
+        "presion": "24.95"
     },
     {
         "hora": 23,
         "nudo": "C",
-        "presion": "39.23"
+        "presion": "40.78"
     },
     {
         "hora": 23,
         "nudo": "D",
-        "presion": "35.92"
+        "presion": "37.03"
     },
     {
         "hora": 23,
         "nudo": "E",
-        "presion": "23.12"
+        "presion": "24.26"
     },
     {
         "hora": 23,
         "nudo": "A",
-        "presion": "5.36"
+        "presion": "5.53"
     },
     {
         "hora": 24,
         "nudo": "B",
-        "presion": "26.98"
+        "presion": "27.73"
     },
     {
         "hora": 24,
         "nudo": "C",
-        "presion": "43.52"
+        "presion": "44.70"
     },
     {
         "hora": 24,
         "nudo": "D",
-        "presion": "39.75"
+        "presion": "40.61"
     },
     {
         "hora": 24,
         "nudo": "E",
-        "presion": "27.72"
+        "presion": "28.60"
     },
     {
         "hora": 24,
         "nudo": "A",
-        "presion": "5.23"
+        "presion": "5.41"
     }
 ]

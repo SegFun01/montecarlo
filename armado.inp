@@ -5,9 +5,10 @@ Prueba para correr varias veces
 [JUNCTIONS]
 ;ID              	Elev        	Demand      	Pattern         
 B  1210  16.9  1  ;
-C  1190  29.79  1  ;
+C  1190  26.48  1  ;
 D  1195  33.1  1  ;
-E  1205  20.24  1  ;
+E  1205  27.83  1  ;
+
 
 [RESERVOIRS]
 ;ID              	Head        	Pattern         
