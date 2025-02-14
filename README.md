@@ -12,16 +12,16 @@ c_prob = [(10,0.8),(15, 0.9),(50, 1),(15,1.1),(10,1.2)]
 <img src="probabilidades.png">
 
 que deben ser agregados al archivo `generarCaudales.py`.  Consisten en pares ordenados de probabilidad, valor.
-* Se debe preparar un archivo de texto plano llamado `entrada.txt` con la información de los nudos de carga, con los datos de id, elevación, demanda y patrón, de la siguiente forma:
+* Se debe preparar un archivo de texto plano llamado `entrada.inp` con la información de los nudos de carga, con los datos de id, elevación, demanda y patrón, de la siguiente forma:
 ```
-entrada.txt
+entrada.inp
 id	      elevacion	    demanda	  patron
  B         	1210        	16.9     	1   ;
  C         	1190        	33.1     	1   ;
  D         	1195        	33.1     	1   ;
  E         	1205        	25.3    	1   ;
 ```
-* Con el archivo `entrada.txt` se corre el programa `generarCaudales.py` que da un archivo de salida llamado `junctions.inp`que es un fragmento del archivo `inp`de entrada para Epanet:  La corrida se ejecuta:
+* Con el archivo `entrada.inp` se corre el programa `generarCaudales.py` que da un archivo de salida llamado `junctions.inp`que es un fragmento del archivo `inp`de entrada para Epanet:  La corrida se ejecuta:
 ```
 python3 generarCaudales.py
 ```
