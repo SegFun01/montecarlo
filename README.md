@@ -31,6 +31,9 @@ cat head.inp junctions.inp bottom.inp > armado.inp
 ```
 epanet2 armado###.inp armado###.rpt
 ```
+**Nota:**  el comando anterior es para usar enm epanet para Linux.  En Windows usar `runepanet.exe` en lugar de `epanet2`.
+
+
 Con la lista de archivos llamados  `armado000.rpt`, `armado001.rpt`, `armado002.rpt`, ... `armado999.rpt`, se prepara un archivo en formato de CSV, que se llama `reporte.csv`, y también se obtiene un archivo `reporte.json`.  En este momento solo lee un archivo.  Hay que hacer una rutina que lo repita con todos los archivos del directorio.
 ```
 python3 leerRPT.py
