@@ -18,7 +18,7 @@ id	      elevacion	    demanda	  patron
  D         	1195        	33.1     	1   ;
  E         	1205        	25.3    	1   ;
 ```
-* Con el archivo `entrada.txt` se corre el programa `generarCaulaes.py` que da un archivo de salida llamado `juntions.inp`que es un fragmento del archivo `inp`de entrada para Epanet:  La corrida se ejecuta:
+* Con el archivo `entrada.txt` se corre el programa `generarCaudales.py` que da un archivo de salida llamado `junctions.inp`que es un fragmento del archivo `inp`de entrada para Epanet:  La corrida se ejecuta:
 ```
 python3 generarCaudales.py
 ```
