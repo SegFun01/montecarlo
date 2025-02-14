@@ -11,24 +11,26 @@ c_prob = [(10,0.8),(15, 0.9),(50, 1),(15,1.1),(10,1.2)]
 ```
 <img src="probabilidades.png">
 
-que deben ser agregados al archivo `generarCaudales.py`.  Consisten en pares ordenados de probabilidad, valor.
+Los cuales deben ser agregados al archivo `generarCaudales.py`.  Consisten en pares ordenados de probabilidad, valor.  
+
+$Hay que mejorar esto de forma que se lean también de un archivo de entrada$
+
 * Se debe preparar un archivo de texto plano llamado `entrada.inp` con la información de los nudos de carga, con los datos de id, elevación, demanda y patrón, de la siguiente forma:
 ```
-entrada.inp
 id	      elevacion	    demanda	  patron
  B         	1210        	16.9     	1   ;
  C         	1190        	33.1     	1   ;
  D         	1195        	33.1     	1   ;
  E         	1205        	25.3    	1   ;
 ```
-* Con el archivo `entrada.inp` se corre el programa `generarCaudales.py` que da un archivo de salida llamado `junctions.inp`que es un fragmento del archivo `inp`de entrada para Epanet:  La corrida se ejecuta:
+* Con el archivo `entrada.inp` se corre el programa `generarCaudales.py` que da un archivo de salida llamado `junctions.inp` que es un fragmento del archivo `inp` de entrada para Epanet:  La corrida se ejecuta:
 ```
 python3 generarCaudales.py
 ```
-* Se debe tener preparado el archivo del modelo en formato `inp`el cual debe ser editado para obtener 2 partes: `head.inp`con las primeras líneas de código hasta después de la instrucción `[JUNCTIONS]` y otra parte llamada `bottom.inp` con la parte baja del archivo `inp` habiendo eliminado la información desde el inicio hasta antes de la instrucción `[RESERVOIRS]`
-* Se construye el archivo de entrada a Epanet con las 2 partes, `head.inp`, `junctions.inp` generado anteriormente y `bottom.inp`, para generar un archivo llamado `armado###.inp` así:
+* Se debe tener preparado el archivo del modelo en formato `inp` el cual debe ser editado para obtener 2 partes: `head.inp` con las primeras líneas de código hasta después de la instrucción `[JUNCTIONS]` y otra parte llamada `bottom.inp` con la parte baja del archivo `inp` habiendo eliminado la información desde el inicio hasta antes de la instrucción `[RESERVOIRS]`
+* Se construye el archivo de entrada a Epanet con las 2 partes, `head.inp`, `junctions.inp` y `bottom.inp`, para generar un archivo llamado `armado###.inp` así:
 ```
-cat head.inp junctions.inp bottom.inp > armado.inp
+cat head.inp junctions.inp bottom.inp > armado###.inp
 ```
 * Ahora con el archivo que se llama `armado.inp` se corre el modelo de Epanet, y se obtiene un archivo con nombre `armado###.rpt`, en donde `###` lo irá generando el scrit de bash, que corre `n` veces.
 ```
