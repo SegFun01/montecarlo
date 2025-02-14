@@ -19,9 +19,9 @@ random.seed()
 dist_frec = []
 nudos=[]
 c_prob = [(10,0.8),(15, 0.9),(50, 1),(15,1.1),(10,1.2)]
-qm = [1.0, 2.0, 3.0, 4.0, 5.0] #caudales
+qm = [1.0, 2.0, 3.0, 4.0, 5.0] #caudales de prueba, ya no se usan
 
-def crear_df(c_prob):  # crear la distribución de frecuencias: 100 valores de los cuales escoger
+def crear_df(c_prob):  # crear la distribución de frecuancias: 100 valores de los cuales escoger
 # Se crean 100 valores a partir de los 5 caudales posibles en cantidades de acuerdo a su probabilidad
   df=[]
   for i in range(len(c_prob)):      # esto se realiza las veces requeridas en el periodo extendido
@@ -39,20 +39,20 @@ def obtiene_demanda(df,qm):     #obtener un número aleatorio, obtener la frecua
 dist_frec = crear_df(c_prob)
 
 #paso 2: usar la función para elegir caudal al azar
-for j in range(len(qm)):
-  print(f"Nudo({j}): ", end = " ")
-  for i in range(n):
-    print(f" {round(obtiene_demanda(dist_frec,qm[j]),2)} ", end = " ")
-  print(" . ")
+#for j in range(len(qm)):
+#  print(f"Nudo({j}): ", end = " ")
+#  for i in range(n):
+#    print(f" {round(obtiene_demanda(dist_frec,qm[j]),2)} ", end = " ")
+#  print(" . ")
   
 try:
-   f = open('entrada.txt','r')
+   f = open('entrada.inp','r')   ## archivo con los nudos de carga originales entrada.inp
 except:
    sys.exit()    
 #-----Cargar los datos globales de la corrida
 encabezados = f.readline().strip()
 contador = 0
-with open('entrada.txt','r')  as file:
+with open('entrada.inp','r')  as file:  ## archivo con los nudos de carga originales entrada.inp
    for line in file:
       if (contador >=1) : 
         vars = line.split()
