@@ -9,6 +9,8 @@ A partir de un archivo con los datos de los nudos de carga del modelo, se obtien
 ```
 c_prob = [(10,0.8),(15, 0.9),(50, 1),(15,1.1),(10,1.2)]
 ```
+<img src="probabilidades.png">
+
 que deben ser agregados al archivo `generarCaudales.py`.  Consisten en pares ordenados de probabilidad, valor.
 * Se debe preparar un archivo de texto plano llamado `entrada.txt` con la información de los nudos de carga, con los datos de id, elevación, demanda y patrón, de la siguiente forma:
 ```
