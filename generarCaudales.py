@@ -37,18 +37,12 @@ def obtiene_demanda(df,qm):     #obtener un número aleatorio, obtener la frecua
 
 #paso 1  crear la distribución de frecuencias para elegir   
 dist_frec = crear_df(c_prob)
-
-#paso 2: usar la función para elegir caudal al azar
-#for j in range(len(qm)):
-#  print(f"Nudo({j}): ", end = " ")
-#  for i in range(n):
-#    print(f" {round(obtiene_demanda(dist_frec,qm[j]),2)} ", end = " ")
-#  print(" . ")
   
 try:
    f = open('entrada.inp','r')   ## archivo con los nudos de carga originales entrada.inp
 except:
    sys.exit()    
+
 #-----Cargar los datos globales de la corrida
 encabezados = f.readline().strip()
 contador = 0
@@ -60,14 +54,19 @@ with open('entrada.inp','r')  as file:  ## archivo con los nudos de carga origin
       contador = contador + 1
 
 orig_stdout = sys.stdout        
-f_sal= open('junctions.inp',"w")
-sys.stdout = f_sal 
-#print(f"[JUNCTIONS]")
-for i in range(len(nudos)):
-  print(f"{nudos[i][0]}  {nudos[i][1]}  {round(obtiene_demanda(dist_frec,float(nudos[i][2])),2)}  {nudos[i][3]}  ;")
-sys.stdout = orig_stdout 
-f_sal.close()
-        
+
+# Realizar la generación n veces
+for k in range(n):
+   fout = "junctions" + str(k).zfill(3)+".inp"
+   #print(fout)
+
+   f_sal= open(fout,"w")
+   sys.stdout = f_sal 
+   #print(f"[JUNCTIONS]")
+   for i in range(len(nudos)):
+      print(f"{nudos[i][0]}  {nudos[i][1]}  {round(obtiene_demanda(dist_frec,float(nudos[i][2])),2)}  {nudos[i][3]}  ;")
+   f_sal.close()
+sys.stdout = orig_stdout       
   
 
       
