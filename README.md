@@ -13,7 +13,7 @@ c_prob = [(10,0.8),(15, 0.9),(50, 1),(15,1.1),(10,1.2)]
 
 Los cuales deben ser agregados al archivo `generarCaudales.py`.  Consisten en pares ordenados de probabilidad, valor.  
 
-$Hay que mejorar esto de forma que se lean también de un archivo de entrada$
+####Hay que mejorar esto de forma que se lean también de un archivo de entrada
 
 * Se debe preparar un archivo de texto plano llamado `entrada.inp` con la información de los nudos de carga, con los datos de id, elevación, demanda y patrón, de la siguiente forma:
 ```
