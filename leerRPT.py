@@ -9,23 +9,33 @@ import random
 import sys
 
 #######################################################################
-n = 5  # cantidad de nudos a leer ((((((((((((((( OJO )))))))))))))))))
+n = 5  # cantidad de nudos a leer ((((((((((((((( OJO )))))))))))))))))  INCLUYE LOS DE CARGA FIJA
 #######################################################################
+
+if len(sys.argv) < 2 :   #cuando solo se escribe mgh, imprime el modo de uso y termina
+   fin = "armado.rpt"
+   fout = "armado.csv"
+else:                     #cuando se da el comando más un nombre de archivo, lo ejecuta en modo normal
+   fin = sys.argv[1]
+   fout = sys.argv[1]
+   fout = fout.replace("rpt","csv")
+   print(fout)
 
 nudos = []
 vars=[]
 
 try:
-   f = open('entrada.rpt','r')
+   f = open(fin,'r')
 except:
+   print("No pude leer archivo")
    sys.exit()    
 
 orig_stdout = sys.stdout        
-f_sal= open('reporte.txt',"w")
+f_sal= open(fout,"w")
 sys.stdout = f_sal 
 contador = -1
 
-with open('entrada.rpt','r')  as file:
+with open(fin,'r')  as file:
   while True:
      line = file.readline()
      if not line:
