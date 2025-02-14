@@ -1,7 +1,8 @@
 # montecarlo
 
-## Funcionamiento
-A partir de un archivo con los datos de los nudos de carga del modelo, se obtienen valores alestorios de caudal para cada nodo de acuerdo con una distribución de probabilidades.
+## TRABAJO EN PROCESO
+### Objetivo
+A partir de un archivo con los datos de los nudos de carga del modelo, se obtienen valores aleatorios de caudal para cada nodo de acuerdo con una distribución de probabilidades.
 
 ### Requisitos
 * Se debe aportar la o las curvas de probalididad de caudales unitarios de los nodos, de la forma:
