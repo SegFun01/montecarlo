@@ -11,7 +11,7 @@ import random
 import sys
 
 ## Variables globales
-n = 15
+n = 10   #----------Este es el número de simulaciones de Montecarlo, usar 1000
 f_n= float(n)
 qmc=0.0
 QT=0.0
@@ -58,15 +58,14 @@ orig_stdout = sys.stdout
 # Realizar la generación n veces
 for k in range(n):
    fout = "junctions" + str(k).zfill(3)+".inp"
-   #print(fout)
-
+   print(fout)
    f_sal= open(fout,"w")
    sys.stdout = f_sal 
    #print(f"[JUNCTIONS]")
    for i in range(len(nudos)):
       print(f"{nudos[i][0]}  {nudos[i][1]}  {round(obtiene_demanda(dist_frec,float(nudos[i][2])),2)}  {nudos[i][3]}  ;")
    f_sal.close()
-sys.stdout = orig_stdout       
+   sys.stdout = orig_stdout       
   
 
       

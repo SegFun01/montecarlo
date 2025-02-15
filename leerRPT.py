@@ -8,10 +8,6 @@ import json
 import random
 import sys
 
-#######################################################################
-n = 5  # cantidad de nudos a leer ((((((((((((((( OJO )))))))))))))))))  INCLUYE LOS DE CARGA FIJA
-#######################################################################
-
 if len(sys.argv) < 2 :   #cuando solo se escribe mgh, imprime el modo de uso y termina
    fin = "armado.rpt"
    fout = "armado.csv"
@@ -19,6 +15,7 @@ else:                     #cuando se da el comando más un nombre de archivo, lo
    fin = sys.argv[1]
    fout = sys.argv[1]
    fout = fout.replace("rpt","csv")
+   foutjson = fout.replace("csv","json")
    print(fout)
 
 nudos = []
@@ -45,16 +42,18 @@ with open(fin,'r')  as file:
        contador = contador +1
        for i in range(4):
          line = file.readline()
-       for i in range(n):
+       while True:
          line = file.readline()
          vars = line.split()
+         if (len(vars)==0):
+            break
          nudos.append({"hora":contador,"nudo": vars[0], "presion": vars[3]})
          print(f"{contador}, {vars[0]}, {vars[3]} ")
          
 json_object = json.dumps(nudos, indent=4)
 
 # Escribir el .json
-with open("reporte.json", "w") as outfile:
+with open(foutjson, "w") as outfile:
   outfile.write(json_object)
 sys.stdout = orig_stdout 
 f_sal.close()
