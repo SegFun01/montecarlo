@@ -35,7 +35,7 @@ cat head.inp junctions.inp bottom.inp > armado###.inp
 ```
 epanet2 armado###.inp armado###.rpt
 ```
-**Nota:**  el comando anterior es para usar enm epanet para Linux.  En Windows usar `runepanet.exe` en lugar de `epanet2`.
+**Nota:**  el comando anterior es para usar en Epanet para Linux.  En Windows usar `runepanet.exe` en lugar de `epanet2`.
 
 
 Con la lista de archivos llamados  `armado000.rpt`, `armado001.rpt`, `armado002.rpt`, ... `armado999.rpt`, se prepara múltiples archivos en formato de CSV, que se llama `armado###.csv`, y también en formato json `armado###.json`.  
