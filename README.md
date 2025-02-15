@@ -9,7 +9,7 @@ A partir de un archivo con los datos de los nudos de carga del modelo, se obtien
 ```
 c_prob = [(10,0.8),(15, 0.9),(50, 1),(15,1.1),(10,1.2)]
 ```
-<img src="probabilidades.png">
+![Gráfica de la distribución de probabilidades de caudales en el nodo](probabilidades.png)
 
 Los cuales deben ser agregados al archivo `generarCaudales.py`.  Consisten en pares ordenados de probabilidad, valor.  
 
@@ -44,6 +44,9 @@ Con la lista de archivos llamados  `armado000.rpt`, `armado001.rpt`, `armado002.
 python3 leerRPT.py
 ```
 
-## Por hacer
-*  Está pendiente la confección del script de bash, para el proceso repetitivo 1000 veces.
+## Script unificado
+Ya está listo un SCRIPT que realiza todo el proceso de generar los sets de caudales aleatorios para cada corrida, confeccionar cada archivo INP de entrada para el EPANET, realizar las corridas, extreaer los datos de cada corrida y unificar los rasultados en un único archivo CSV.  El SCRPT se llama  `montecarlo.sh`
+Nota:  en la etapa de pruebas  `montecarlo.sh` realiza un análisis con 10 corridas, sin embargo en la prueba final deberá hacerse con 1000 veces.  Esto se debe editar en `generarCaudales.py`, hay que editar `n=10`, por `n=1000`
+
+crc2025
   
