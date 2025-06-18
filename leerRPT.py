@@ -8,11 +8,12 @@ import json
 import random
 import sys
 
-if len(sys.argv) < 2 :   #cuando solo se escribe mgh, imprime el modo de uso y termina
+if len(sys.argv) < 2 :   # imprime el modo de uso y termina
    fin = "armado.rpt"
    fout = "armado.csv"
 else:                     #cuando se da el comando más un nombre de archivo, lo ejecuta en modo normal
    fin = sys.argv[1]
+   iteracion = sys.argv[2]
    fout = sys.argv[1]
    fout = fout.replace("rpt","csv")
    foutjson = fout.replace("csv","json")
@@ -48,7 +49,7 @@ with open(fin,'r')  as file:
          if (len(vars)==0):
             break
          nudos.append({"hora":contador,"nudo": vars[0], "presion": vars[3]})
-         print(f"{contador}, {vars[0]}, {vars[3]} ")
+         print(f"{iteracion}, {contador}, {vars[0]}, {vars[1]}, {vars[2]}, {vars[3]} ")
          
 json_object = json.dumps(nudos, indent=4)
 

@@ -33,7 +33,7 @@ sleep 2
 echo "Extrayendo resultados de salidas de Epanet"
 for filename in armado*.rpt; do
     numero=${filename:6:3}
-    python3 leerRPT.py $filename
+    python3 leerRPT.py $filename $numero
 done
 echo "Resultados extraídos"
 sleep 2
@@ -44,3 +44,12 @@ for filename in armado*.csv; do
 done
 
 echo "Resultados de Montecarlo están en unido.csv"
+
+echo "Limpiando archivos"
+echo "junctions..."
+rm junctions???.inp
+rm armado???.inp
+rm armado???.csv
+mv armado*.rpt archivos
+mv armado*.json archivos
+
