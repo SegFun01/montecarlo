@@ -1,7 +1,7 @@
 # montecarlo
 
 ### Objetivo
-A partir de un archivo con los datos de los nudos de carga del modelo, se obtienen valores aleatorios de caudal para cada nodo de acuerdo con una distribución de probabilidades.
+A partir de un archivo con los datos de las demandas en los nudos del modelo, se obtienen valores aleatorios de caudal para cada nodo de acuerdo con una distribución de probabilidades.
 
 ### Requisitos
 * Se debe aportar la o las curvas de probabilidad de caudales unitarios de los nodos, de la forma:
@@ -12,19 +12,20 @@ c_prob = [(10,0.8),(15, 0.9),(50, 1),(15,1.1),(10,1.2)]
 
 La curva de probabilidades debe ser agregada al archivo `generarCaudales.py`.  Consisten en pares ordenados de (probabilidad, valor).  
 
-* Se debe preparar un archivo de texto plano llamado `entrada.inp` con la información de los nudos de carga, con los datos de id, elevación, demanda y patrón, de la siguiente forma:
+* Se debe preparar un archivo de texto plano llamado `entrada.inp` con la información de los caudales promedio de los nudos, con los datos de id, caudal y observaciones:
 ```
-id	      elevacion	    demanda	  patron
- B         	1210        	16.9     	1   ;
- C         	1190        	33.1     	1   ;
- D         	1195        	33.1     	1   ;
- E         	1205        	25.3    	1   ;
+J-1338 0.067596008 LasCruces 
+J-1339 0.007246682 LasCruces 
+J-1358 0.130367961 LasCruces 
+J-1359 0.006647753 LasCruces 
+J-1359 0.005991122 LasCruces 
+J-1360 0.147128134 LasCruces
 ```
 * Con el archivo `entrada.inp` se corre el programa `generarCaudales.py` que da un número `n` de archivos de llamados `junctions###.inp` que es un fragmento del archivo `inp` de entrada para Epanet:
 ```
 python3 generarCaudales.py
 ```
-* Se debe tener preparado el archivo del modelo en formato `inp` el cual debe ser editado para obtener 2 partes: `head.inp` con las primeras líneas de código hasta después de la instrucción `[JUNCTIONS]` y otra parte llamada `bottom.inp` con la parte baja del archivo `inp` habiendo eliminado la información desde el inicio hasta antes de la instrucción `[RESERVOIRS]`
+* Se debe tener preparado el archivo del modelo en formato `inp` el cual debe ser editado para obtener 3 partes: `head.inp` con las primeras líneas de código hasta después de la instrucción `[DEMANDS]`, la segunda parte es el archivo `entrada.inp` descrito anteriormente y otra parte llamada `bottom.inp` con la parte baja del archivo `inp` habiendo eliminado la información desde el inicio hasta la instrucción `[DEMANDS]` incluida, por ejemplo en la muestra hasta antes de `[EMITERS]`.
 
 * Se construye cada archivo de entrada a Epanet con las 2 partes, `head.inp`, `junctions###.inp` y `bottom.inp`, para generar un archivo llamado `armado###.inp` para cada corrida, así:
 ```
