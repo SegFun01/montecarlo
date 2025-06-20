@@ -6,7 +6,15 @@ A partir de un archivo con los datos de las demandas en los nudos del modelo, se
 ### Requisitos
 * Se debe aportar la o las curvas de probabilidad de caudales unitarios de los nodos, de la forma:
 ```
-c_prob = [(10,0.8),(15, 0.9),(50, 1),(15,1.1),(10,1.2)]
+c_prob = [(15,0.75),(20, 0.9),(30, 1),(20,1.1),(15,1.25)]
+```
+```
+0.75 ███████████████
+0.90 ████████████████████
+1.00 ██████████████████████████████
+1.10 ████████████████████
+1.25 ███████████████
+
 ```
 ![Gráfica de la distribución de probabilidades de caudales en el nodo](probabilidades.png)
 
