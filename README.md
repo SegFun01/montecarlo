@@ -45,7 +45,7 @@ python3 leerRPT.py
 ```
 
 ## Script unificado
-El SCRIPT `montecarlo.sh` realiza todo el proceso de generar los sets de caudales aleatorios para cada corrida, confeccionar cada archivo INP de entrada para el EPANET, realizar las corridas, extreaer los datos de cada corrida y unificar los resultados en un único archivo CSV.  
+El SCRIPT `montecarlo.sh` realiza todo el proceso de generar los sets de caudales aleatorios para cada corrida, confeccionar cada uno de los `n` archivos INP de entrada para el EPANET, realizar las corridas, extraer los datos de cada corrida y unificar los resultados en un único archivo CSV, que se llama `unido.csv`.  
 
 Nota:  en la etapa de pruebas  `montecarlo.sh` realiza un análisis con 10 corridas, sin embargo en la prueba final deberá hacerse con 1000 veces.  Esto se debe editar en `generarCaudales.py`, hay que editar `n=10`, por `n=1000`
 
