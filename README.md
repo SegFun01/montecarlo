@@ -10,7 +10,7 @@ c_prob = [(10,0.8),(15, 0.9),(50, 1),(15,1.1),(10,1.2)]
 ```
 ![Gráfica de la distribución de probabilidades de caudales en el nodo](probabilidades.png)
 
-La curva de probabilidades debe ser agregada al archivo `generarCaudales.py`.  Consisten en pares ordenados de (probabilidad, valor).  
+La curva de probabilidades debe ser agregada al archivo `generarCaudales.py`.  Consisten en pares ordenados de (probabilidad, valor).   Representan la probabilidad de que el caudal de demanda promedio de cada nudo tenga un valor al azar en la curva de distribución normal alrededor del valor medio de la distribución.
 
 * Se debe preparar un archivo de texto plano llamado `entrada.inp` con la información de los caudales promedio de los nudos, con los datos de id, caudal y observaciones:
 ```
